@@ -1,0 +1,515 @@
+  * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ table {
+            border-collapse:collapse;
+            border-spacing:0;
+        }
+.fl {
+  float: left;
+}
+.box {
+  height: 40px;
+  line-height: 40px;
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding:30px 0; 
+}
+.box button {
+  padding: 0 10px;
+  margin: 0 10px;
+  height: 40px;
+  float: left;
+  cursor: pointer;
+  border: 1px solid #ebebeb;
+  background-color: #ffffff;
+}
+.box .first-page,
+.box .last-page {
+  margin: 0;
+}
+.box .pageWrap {
+  height: 40px;
+  float: left;
+  overflow: hidden;
+}
+      .paging button{
+        padding: 0 10px;
+       margin: 0 10px;
+    height: 40px;
+    float: left;
+    cursor: pointer;
+    border: 1px solid #ebebeb;
+    background-color: #ffffff;
+      }
+      .paging li{
+      width: 60px;
+      height: 40px;
+       border: 1px solid #ebebeb;
+       line-height: 40px;
+       box-sizing: border-box;
+       cursor: pointer;
+        float: left;
+      }
+
+       .paging .pagbtn1,{
+         margin:0;
+         
+       } 
+
+    .paging{
+      height: 40px;
+    line-height: 40px;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    }
+    .pagbk{
+          background-color: #bddff3;
+    color: #fff;
+    }
+       .paging input{
+          width: 60px;
+            height: 40px;
+             box-sizing: border-box;
+        text-align: center;
+         margin: 0 5px;
+         float: left;
+      }
+      .paging p{
+         margin-left: 10px;
+    float: left;
+    font-size: 14px;
+    height: 30px;
+
+      }
+         
+.box .pageWrap ul {
+  width: 100000px;
+  height: 40px;
+  float: left;
+}
+.box .pageWrap ul li {
+  width: 60px;
+  height: 40px;
+  border: 1px solid #ebebeb;
+  line-height: 40px;
+  box-sizing: border-box;
+  cursor: pointer;
+  float: left;
+}
+.box .pageWrap ul .sel-page {
+  background-color: #bddff3;
+  color: #fff;
+}
+.box .jump-text {
+  width: 60px;
+  height: 40px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0 5px;
+  float: left;
+}
+.box .jump-button {
+  margin: 0;
+  float: left;
+}
+.box .total-pages,
+.box .total-count {
+  margin-left: 10px;
+  float: left;
+  font-size: 14px;
+}
+body{
+  background-image: url(../img/beibei.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.header{
+  text-align: center;
+}
+.header .ulone{
+  margin-bottom: 30px;
+}
+.header>ul{
+  width: 100%;
+  margin: 0 auto;
+}
+.header .list{
+  display: inline-block;
+  *display: inline;
+  *zoom:1;
+  margin: 0 auto;
+  width: 300px;
+  height: 50px;
+  line-height:50px;
+  background: rgba(255,255,255,.5);
+  font-size: 26px;
+  color: #8fd2fd;
+  cursor: pointer;
+}
+.header .text{
+  display: none;
+  position: absolute;
+  z-index: 999999999999999999;
+  cursor: pointer;
+}
+.header .text li{
+  background: #fff;
+  color:#9ed8fd;
+  width: 300px;
+}
+.header .text li a{
+  color:#9ed8fd;
+}
+.header .text li a:hover{
+  color: #63a2cc;
+}
+.header .list:hover{
+  background: #87cfff;
+  color: #fff;
+}
+.bk{
+  background: #87cfff;
+  color: #fff;
+}
+.clr{
+  color: #63a2cc!important;
+}
+.header .list:hover .text{
+ display: block;
+}
+.header h1{
+  font-size: 32px;
+  color: #4790b8;
+  padding-top: 60px;
+  margin-bottom: 60px;
+}
+.header .ultwo {
+  background:rgba(255,255,255,.7);
+  width: 1200px;
+  text-align: center;
+}
+.header table{
+  margin:0 auto;
+
+}
+.ultwo td{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border:1px solid #fff;
+    font-size: 20px;
+}
+.ultwo td:nth-child(2){
+  width: 250px;
+}
+.ultwo td:nth-child(1){
+  width: 250px;
+}
+.ultwo td:nth-child(3){
+  width: 200px;
+}
+.ultwo td:nth-child(4){
+  width: 200px;
+}
+.ultwo td:nth-child(5){
+  width: 300px;
+}
+.box .pageWrap ul li{
+  display: block;
+}
+.listone .lishreete{
+  text-align: left;
+  height: 460px;
+  /*overflow: hidden;*/
+  overflow-y:scroll;
+}
+.listone .lishreete ul{
+  position: relative;
+  padding-left: 10px;
+  font-size: 20px;
+  color: #343331;
+}
+.listone .lishreete .li{
+  padding-left: 25px;
+  color: #666;
+}
+/*.listone .lishreete span{
+  position: absolute;
+  top:2px;
+  left:5px;
+  width: 28px;
+  height: 28px;
+}
+.listone .lishreete span img{
+  width: 100%;
+}*/
+.listone .lishreete .li{
+  width: 800px;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 30px;
+  /*position:relative;*/
+}
+.listone .lishreete .li img{
+  width: 150px;
+  position: absolute;
+  right: 0;
+  top:45px;
+}
+.listone .lishreete ul{
+  padding-top: 10px;
+}
+.listone  .zengbtn,.shanbtn,.xiubtn{
+   width: 100px;
+   height: 30px;
+   line-height: 30px;
+   background: rgb(139, 207, 254);
+   color: #fff;
+   margin-right: 4px;
+}
+.quebtn,.qubtn{
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  margin:0 auto;
+}
+.listone .form .quebtn,.listone .form .qubtn{
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #666;
+ display: inline-block;
+ vertical-align:middle;
+ margin-top: -5px;
+}
+#editor{
+  width: 1200px;
+}
+.listone {
+  position: relative;
+  color: #666;
+  cursor: pointer;
+}
+.listone .tan{
+  width: 1200px;
+  height: 460px;
+  position: absolute;
+  left: 0;
+  top:0;
+  text-align: center;
+  padding-top: 130px;
+}
+.listone .tan1{
+  width: 400px;
+  height: 200px;
+  background: #fff;
+  margin-left: 450px;
+}
+.listone .tan1 div{
+  font-size: 20px;
+  line-height: 100px;
+}
+.listone .tan1 button{
+  width: 90px;
+  height: 28px;
+  margin-right: 20px;
+  color: #FFF;
+}
+.listone .tan1 button:nth-child(1){
+  background: #ff2929;
+  border-color:#ff2929;
+}
+.listone .tan1 button:nth-child(2){
+  background: #fff;
+  /*border:none;*/
+  color: #000;
+  border-color:#000;
+}
+.listone .top div{
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+.listone .top div:nth-child(1){
+  height: 60px;
+  line-height: 60px;
+  background: #8bcffe;
+  color: #fff;
+}
+.listone .top div:nth-child(2){
+  height: 60px;
+  line-height: 60px;
+  background: #fff;
+  color: #2a516e;
+}
+.edui-container{
+  /*display: none;*/
+  z-index: 1;
+}
+.edui-container,.edui-body-container{
+  margin:0 auto;
+  width: 1200px!important;
+  height: 240px;
+  top:-30px;
+}
+.btn{
+  width: 140px;
+  height: 38px;
+  background: #ff2929;
+  margin:0 auto;
+  cursor: pointer;
+}
+.btn2{
+  width: 1200px;
+  background: #fff;
+  height: 38px;
+  text-align: center;
+  background: rgba(255,255,255,.5);
+  border-color: #ff2929;
+  
+}
+.listone .listfore li{
+  height: 60px;
+  line-height: 60px;
+  border-bottom:1px dotted red;
+}
+.footer{
+  height: 500px;
+}
+.footer .box {width:360px; margin:0 auto;}
+ .footer .box .select{background:#d2edff;width:360px;}
+    .footer .box .tit {
+        width:100%;
+        height:50px;
+        font-size:20px;
+        line-height:50px;
+        border-bottom:1px solid #eee;
+        cursor: pointer;
+        background: #fff;
+        border-radius: 4px;
+    }
+   .footer .box .tit p {
+        display:inline-block;
+        text-indent:30px;
+        width:300px;
+        font-size: 20px;
+        color: #666;
+    }
+   .footer .box .tit span {
+        display:inline-block;
+        width: 0;
+        height: 0;
+        margin-left:20px;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #b6b6b6;
+    }
+   .footer .box .lists li {
+        text-indent: 300px;
+        height:50px;
+        line-height:50px;
+        font-size: 20px;
+        border-bottom:1px solid #fff;
+        color: #87cfff;
+    }
+    .footer .box .lists li:last-child{
+        border:none;
+    }
+    .footer .box .lists{
+        height:0;
+        overflow-y: scroll;
+    }
+  .listone .table img{
+    width: 20px;
+  }
+  .listone .table{
+      margin:0;
+      overflow-y:scroll ;
+ }
+.listone .table .zengbtn,.table .shanbtn,.table .xiubtn{
+   width: 90px;
+   height: 40px;
+   line-height: 40px;
+   background: rgb(139, 207, 254);
+   color: #fff;
+   margin-right: 4px;
+}
+.listone .table .forediv{
+  display: inline-block;
+  vertical-align: middle;
+}
+.listone .table .forediv .td{
+  /*display: block;*/
+}
+
+.listone .form{
+  text-align: left;
+  font-size: 20px;
+  color: red;
+}
+.listone .form input{
+  display: inline-block;
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+  text-align: left;
+  font-size: 20px;
+}
+/*.listone .form .td img{
+  position: relative;
+}*/
+.listone .td img:hover{
+  transform:scale(6);
+}
+.file {
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+    position: relative;
+    display: inline-block;
+    *display:inline;
+    *zoom:1;
+    background: #D0EEFF;
+    border: 1px solid #99D3F5;
+    border-radius: 4px;
+    /*padding: 4px 12px;*/
+    overflow: hidden;
+    color: #1E88C7;
+    text-decoration: none;
+    text-indent: 0;
+     font-size: 20px;
+     top:10px;
+}
+.file input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+.file:hover {
+    background: #AADFFD;
+    border-color: #78C3F3;
+    color: #004974;
+    text-decoration: none;
+}
+.file:hover {
+    background: #AADFFD;
+    border-color: #78C3F3;
+    color: #004974;
+    text-decoration: none;
+} 

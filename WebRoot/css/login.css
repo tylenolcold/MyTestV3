@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-09-20 10:46:14
+ * @version $Id$
+ */
+body{
+    background-image: url(../img/bei.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+color: #a8c7db;
+　　}
+　　:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+　　color: #a8c7db;
+　　}
+　　::-moz-placeholder { /* Mozilla Firefox 19+ */
+　　color: #a8c7db;
+　　}
+　　:-ms-input-placeholder { /* Internet Explorer 10+ */
+　　color: #a8c7db;
+　　}
+.header{
+    text-align: center;
+     cursor: pointer;
+}
+.header h2{
+    font-size: 48px;
+    color: #647e8e;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+.header input{
+     cursor: pointer;
+    width: 650px;
+    height: 68px;
+    /*opacity: 0;*/
+    font-size: 30px;
+    text-indent: 14px;
+    color: #a8c7db;
+    background: rgba(255,255,255,.5);
+    border:1px solid rgba(255,255,255,.5);
+}
+.header p{
+    height: 54px;
+    line-height: 54px;
+    font-size: 24px;
+    color: red;
+    opacity: 0;
+}
+.header .what input:hover{
+    background: rgba(255,255,255,1);
+    color: #647e8e;
+}
+.header .submit{
+    opacity: 1;
+    background: #b9e5fe;
+    border: none;
+    color: #fff;
+}
+
+.header .submit:hover{
+    background: #2e91d3;
+}
