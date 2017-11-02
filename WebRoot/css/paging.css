@@ -1,4 +1,4 @@
-  * {
+* {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -418,7 +418,7 @@ body{
         border-top: 10px solid #b6b6b6;
     }
    .footer .box .lists li {
-        text-indent: 300px;
+        text-indent:.300px;
         height:50px;
         line-height:50px;
         font-size: 20px;
@@ -452,7 +452,7 @@ body{
   vertical-align: middle;
 }
 .listone .table .forediv .td{
-  /*display: block;*/
+  /*display: block;*/0
 }
 
 .listone .form{
